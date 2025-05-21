@@ -1,0 +1,1 @@
+// Staking and competition logic
