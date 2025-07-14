@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+  <meta charset="UTF-8">
+  <title>Legend Swap</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>💱 Legend Swap</h1>
+  <p>کیف پول: <span id="walletAddress">Not Connected</span></p>
+  <button id="connectButton" onclick="connectWallet()">اتصال کیف پول</button>
+  <div>
+    <select id="fromToken"></select>
+    <br>
+    <select id="toToken"></select>
+    <br>
+    <input type="number" id="amount" placeholder="مقدار" />
+    <br>
+    <button id="reverseButton" onclick="reverseTokens()">🔁 جابجایی</button>
+  </div>
+  <div id="priceInfo" style="margin-top: 15px; font-size: 18px;">-</div>
+  <button id="swapButton" onclick="swapTokens()">🔄 سواپ</button>
+  <div id="status"></div>
+  <script src="https://cdn.jsdelivr.net/npm/web3@1.10.0/dist/web3.min.js"></script>
+  <script src="abi.js"></script>
+  <script src="tokens.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>
