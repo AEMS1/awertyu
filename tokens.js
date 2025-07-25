@@ -11,8 +11,4 @@ const tokens = [
     symbol: "LGD",
     address: "0x4751C0DE56EFB3770615097347cbF131D302498A"
   }
-  {
-    symbol: "token",
-    address: "0x643c4e15d7d62ad0abec4a9bd4b001aa3ef52d66"
-  },
 ];
